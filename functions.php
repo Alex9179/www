@@ -3,98 +3,98 @@
 
  function Weathergraph($W)
  {
-   switch($W){
-     case 0:
-     return 'images/clear_night.png';
-     break;
-     case 1: 
-     return 'images/sunny_day.png';
-     break;
-     case 2:
-     return 'images/partly_cloudy_night.png';
-     break;
-     case 3:
-     return 'images/partly_cloudy_day.png';
-     break;
-     case 5:
-     return 'images/mist.png';
-     break;
-     case 6:
-     return 'images/fog.png';
-     break;
-     case 7:
-     return 'images/cloudy.png';
-     break;
-     case 8;
-     return 'images/overcast.png';
-     break;
-     case 9:
-     return 'images/light_rain.png';
-     break;
-     case 10:
-     return 'images/light_rain.png';
-     break;
-     case 11:
-     return 'images/drizzle.png';
-     break;
-     case 12:
-     return 'images/light_rain.png';
-     break;
-     case 13:
-     return 'images/heavy_rain_shower_night.png';
-     break;
-     case 14:
-     return 'images/heavy_rain_shower.png';
-     break;
-     case 15:
-     return 'images/heavy_rain.png';
-     break;
-     case 16:
-     return 'images/sleet_shower_night.png';
-     break;
-     case 17:
-     return 'images/sleet_shower.png';
-     break;
-     case 18:
-     return 'images/sleet.png';
-     break;
-     case 19:
-     return 'images/hail_shower_night.png';
-     break;
-     case 20:
-     return 'images/hail_shower.png';
-     break;
-     case 21:
-     return 'images/hail.png';
-     break;
-     case 22:
-     return 'images/light_snow_shower_night.png';
-     break;
-     case 23:
-     return 'images/light_snow_shower.png';
-     break;
-     case 24:
-     return 'images/light_snow.png';
-     break;
-     case 25:
-     return 'images/heavy_snow_shower_night.png';
-     break;
-     case 26:
-     return 'images/heavy_snow_shower.png';
-     break;
-     case 27:
-     return 'images/heavy_snow.png';
-     break;
-     case 28:
-     return 'images/thunder_shower_night.png';
-     break;
-     case 29:
-     return 'images/thunder_shower.png';
-     break;
-     case 30:
-     return 'images/thunder.png';
-     break;
- }
+     switch($W){
+       case 0:
+       return 'images/clear_night.png';
+       break;
+       case 1: 
+       return 'images/sunny_day.png';
+       break;
+       case 2:
+       return 'images/partly_cloudy_night.png';
+       break;
+       case 3:
+       return 'images/partly_cloudy_day.png';
+       break;
+       case 5:
+       return 'images/mist.png';
+       break;
+       case 6:
+       return 'images/fog.png';
+       break;
+       case 7:
+       return 'images/cloudy.png';
+       break;
+       case 8;
+       return 'images/overcast.png';
+       break;
+       case 9:
+       return 'images/light_rain.png';
+       break;
+       case 10:
+       return 'images/light_rain.png';
+       break;
+       case 11:
+       return 'images/drizzle.png';
+       break;
+       case 12:
+       return 'images/light_rain.png';
+       break;
+       case 13:
+       return 'images/heavy_rain_shower_night.png';
+       break;
+       case 14:
+       return 'images/heavy_rain_shower.png';
+       break;
+       case 15:
+       return 'images/heavy_rain.png';
+       break;
+       case 16:
+       return 'images/sleet_shower_night.png';
+       break;
+       case 17:
+       return 'images/sleet_shower.png';
+       break;
+       case 18:
+       return 'images/sleet.png';
+       break;
+       case 19:
+       return 'images/hail_shower_night.png';
+       break;
+       case 20:
+       return 'images/hail_shower.png';
+       break;
+       case 21:
+       return 'images/hail.png';
+       break;
+       case 22:
+       return 'images/light_snow_shower_night.png';
+       break;
+       case 23:
+       return 'images/light_snow_shower.png';
+       break;
+       case 24:
+       return 'images/light_snow.png';
+       break;
+       case 25:
+       return 'images/heavy_snow_shower_night.png';
+       break;
+       case 26:
+       return 'images/heavy_snow_shower.png';
+       break;
+       case 27:
+       return 'images/heavy_snow.png';
+       break;
+       case 28:
+       return 'images/thunder_shower_night.png';
+       break;
+       case 29:
+       return 'images/thunder_shower.png';
+       break;
+       case 30:
+       return 'images/thunder.png';
+       break;
+   }
 }
 
 
