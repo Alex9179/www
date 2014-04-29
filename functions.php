@@ -3,98 +3,98 @@
 
  function Weathergraph($W)
  {
-     switch($W){
-       case 0:
-       return 'images/clear_night.png';
-       break;
-       case 1: 
-       return 'images/sunny_day.png';
-       break;
-       case 2:
-       return 'images/partly_cloudy_night.png';
-       break;
-       case 3:
-       return 'images/partly_cloud.png';
-       break;
-       case 5:
-       return 'images/mist.png';
-       break;
-       case 6:
-       return 'images/fog.png';
-       break;
-       case 7:
-       return 'images/cloudy.png';
-       break;
-       case 8;
-       return 'images/overcast.png';
-       break;
-       case 9:
-       return 'images/light_rain.png';
-       break;
-       case 10:
-       return 'images/light_rain.png';
-       break;
-       case 11:
-       return 'images/drizzle.png';
-       break;
-       case 12:
-       return 'images/light_rain.png';
-       break;
-       case 13:
-       return 'images/heavy_rain_shower_night.png';
-       break;
-       case 14:
-       return 'images/heavy_rain_shower.png';
-       break;
-       case 15:
-       return 'images/heavy_rain.png';
-       break;
-       case 16:
-       return 'images/sleet_shower_night.png';
-       break;
-       case 17:
-       return 'images/sleet_shower.png';
-       break;
-       case 18:
-       return 'images/sleet.png';
-       break;
-       case 19:
-       return 'images/hail_shower_night.png';
-       break;
-       case 20:
-       return 'images/hail_shower.png';
-       break;
-       case 21:
-       return 'images/hail.png';
-       break;
-       case 22:
-       return 'images/light_snow_shower_night.png';
-       break;
-       case 23:
-       return 'images/light_snow_shower.png';
-       break;
-       case 24:
-       return 'images/light_snow.png';
-       break;
-       case 25:
-       return 'images/heavy_snow_shower_night.png';
-       break;
-       case 26:
-       return 'images/heavy_snow_shower.png';
-       break;
-       case 27:
-       return 'images/heavy_snow.png';
-       break;
-       case 28:
-       return 'images/thunder_shower_night.png';
-       break;
-       case 29:
-       return 'images/thunder_shower.png';
-       break;
-       case 30:
-       return 'images/thunder.png';
-       break;
-   }
+   switch($W){
+     case 0:
+     return 'images/clear_night.png';
+     break;
+     case 1: 
+     return 'images/sunny_day.png';
+     break;
+     case 2:
+     return 'images/partly_cloudy_night.png';
+     break;
+     case 3:
+     return 'images/partly_cloudy_day.png';
+     break;
+     case 5:
+     return 'images/mist.png';
+     break;
+     case 6:
+     return 'images/fog.png';
+     break;
+     case 7:
+     return 'images/cloudy.png';
+     break;
+     case 8;
+     return 'images/overcast.png';
+     break;
+     case 9:
+     return 'images/light_rain.png';
+     break;
+     case 10:
+     return 'images/light_rain.png';
+     break;
+     case 11:
+     return 'images/drizzle.png';
+     break;
+     case 12:
+     return 'images/light_rain.png';
+     break;
+     case 13:
+     return 'images/heavy_rain_shower_night.png';
+     break;
+     case 14:
+     return 'images/heavy_rain_shower.png';
+     break;
+     case 15:
+     return 'images/heavy_rain.png';
+     break;
+     case 16:
+     return 'images/sleet_shower_night.png';
+     break;
+     case 17:
+     return 'images/sleet_shower.png';
+     break;
+     case 18:
+     return 'images/sleet.png';
+     break;
+     case 19:
+     return 'images/hail_shower_night.png';
+     break;
+     case 20:
+     return 'images/hail_shower.png';
+     break;
+     case 21:
+     return 'images/hail.png';
+     break;
+     case 22:
+     return 'images/light_snow_shower_night.png';
+     break;
+     case 23:
+     return 'images/light_snow_shower.png';
+     break;
+     case 24:
+     return 'images/light_snow.png';
+     break;
+     case 25:
+     return 'images/heavy_snow_shower_night.png';
+     break;
+     case 26:
+     return 'images/heavy_snow_shower.png';
+     break;
+     case 27:
+     return 'images/heavy_snow.png';
+     break;
+     case 28:
+     return 'images/thunder_shower_night.png';
+     break;
+     case 29:
+     return 'images/thunder_shower.png';
+     break;
+     case 30:
+     return 'images/thunder.png';
+     break;
+ }
 }
 
 
@@ -103,7 +103,7 @@ function Weathertype($W)
 {
   switch($W){
     case 0:
-    return 'Clear Night</td>';
+    return '<td>Clear Night</td>';
     break;
     case 1:
     return '<td>Sunny Day</td>';
@@ -129,69 +129,72 @@ function Weathertype($W)
     case 9:
     return '<td class="warning">Light Rain Shower</td>';
     break;
-    case 1:
+    case 10:
     return '<td class="warning">Light Rain Shower</td>';
     break;
-    case 1:
+    case 11:
     return '<td class="warning">Drizzle</td>';
     break;
-    case 1:
+    case 12:
     return '<td class="warning">Light Rain</td>';
     break;
-    case 1:
+    case 13:
     return '<td class="warning">Heavy Rain Shower</td>';
     break;
-    case 1:
+    case 14:
     return '<td class="warning">Heavy Rain Shower</td>';
     break;
-    case 1:
+    case 15:
     return '<td class="danger">Heavy Rain  <span class="glyphicon glyphicon-warning-sign"></span></td>';
     break;
-    case 1:
+    case 16:
     return '<td class="warning">Sleet Shower</td>';
     break;
-    case 1:
+    case 17:
     return '<td class="warning">Sleet Shower</td>';
     break;
-    case 1:
+    case 18:
     return '<td class="danger">Sleet</td>';
     break;
-    case 1:
+    case 19:
     return '<td class="warning">Hail Shower</td>';
     break;
-    case 2:
+    case 20:
     return '<td class="warning">Hail Shower</td>';
     break;
-    case 2:
+    case 21:
     return '<td class="danger  <span class="glyphicon glyphicon-warning-sign"></span>">Hail</td>';
     break;
-    case 2:
+    case 22:
     return '<td class="warning">Light Snow Shower</td>';
     break;
-    case 2:
+    case 23:
     return '<td class="warning">Light Snow Shower</td>';
     break;
-    case 2:
+    case 24:
     return '<td class="warning">Light Snow</td>';
     break;
-    case 2:
+    case 25:
     return '<td class="danger  <span class="glyphicon glyphicon-warning-sign"></span>">Heavy Snow Shower</td>';
     break;
-    case 2:
+    case 26:
     return '<td class="danger  <span class="glyphicon glyphicon-warning-sign"></span>">Heavy Snow Shower</td>';
     break;
-    case 2:
+    case 27:
     return '<td class="danger  <span class="glyphicon glyphicon-warning-sign"></span>">Heavy Snow</td>';
     break;
-    case 2:
+    case 28:
     return '<td class="danger  <span class="glyphicon glyphicon-warning-sign"></span>">Thunder Shower (Night)</td>';
     break;
-    case 2:
+    case 29:
     return '<td class="danger  <span class="glyphicon glyphicon-warning-sign"></span>">Thunder Shower (Day)</td>';
     break;
-    case 3:
+    case 30:
     return '<td class="danger  <span class="glyphicon glyphicon-warning-sign"></span>">Thunder</td>';
     break;
+    default:
+    return '<td> Unknown </td>';
+
 }
 }
 
