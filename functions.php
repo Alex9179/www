@@ -3,104 +3,104 @@
 
  function Weathergraph($W)
  {
-   switch($W){
-     case 0:
-     return 'images/clear_night.png';
-     break;
-     case 1: 
-     return 'images/sunny_day.png';
-     break;
-     case 2:
-     return 'images/partly_cloudy_night.png';
-     break;
-     case 3:
-     return 'images/partly_cloud.png';
-     break;
-     case 5:
-     return 'images/mist.png';
-     break;
-     case 6:
-     return 'images/fog.png';
-     break;
-     case 7:
-     return 'images/cloudy.png';
-     break;
-     case 8;
-     return 'images/overcast.png';
-     break;
-     case 9:
-     return 'images/light_rain.png';
-     break;
-     case 10:
-     return 'images/light_rain.png';
-     break;
-     case 11:
-     return 'images/drizzle.png';
-     break;
-     case 12:
-     return 'images/light_rain.png';
-     break;
-     case 13:
-     return 'images/heavy_rain_shower_night.png';
-     break;
-     case 14:
-     return 'images/heavy_rain_shower.png';
-     break;
-     case 15:
-     return 'images/heavy_rain.png';
-     break;
-     case 16:
-     return 'images/sleet_shower_night.png';
-     break;
-     case 17:
-     return 'images/sleet_shower.png';
-     break;
-     case 18:
-     return 'images/sleet.png';
-     break;
-     case 19:
-     return 'images/hail_shower_night.png';
-     break;
-     case 20:
-     return 'images/hail_shower.png';
-     break;
-     case 21:
-     return 'images/hail.png';
-     break;
-     case 22:
-     return 'images/light_snow_shower_night.png';
-     break;
-     case 23:
-     return 'images/light_snow_shower.png';
-     break;
-     case 24:
-     return 'images/light_snow.png';
-     break;
-     case 25:
-     return 'images/heavy_snow_shower_night.png';
-     break;
-     case 26:
-     return 'images/heavy_snow_shower.png';
-     break;
-     case 27:
-     return 'images/heavy_snow.png';
-     break;
-     case 28:
-     return 'images/thunder_shower_night.png';
-     break;
-     case 29:
-     return 'images/thunder_shower.png';
-     break;
-     case 30:
-     return 'images/thunder.png';
-     break;
+     switch($W){
+       case 0:
+       return 'images/clear_night.png';
+       break;
+       case 1: 
+       return 'images/sunny_day.png';
+       break;
+       case 2:
+       return 'images/partly_cloudy_night.png';
+       break;
+       case 3:
+       return 'images/partly_cloud.png';
+       break;
+       case 5:
+       return 'images/mist.png';
+       break;
+       case 6:
+       return 'images/fog.png';
+       break;
+       case 7:
+       return 'images/cloudy.png';
+       break;
+       case 8;
+       return 'images/overcast.png';
+       break;
+       case 9:
+       return 'images/light_rain.png';
+       break;
+       case 10:
+       return 'images/light_rain.png';
+       break;
+       case 11:
+       return 'images/drizzle.png';
+       break;
+       case 12:
+       return 'images/light_rain.png';
+       break;
+       case 13:
+       return 'images/heavy_rain_shower_night.png';
+       break;
+       case 14:
+       return 'images/heavy_rain_shower.png';
+       break;
+       case 15:
+       return 'images/heavy_rain.png';
+       break;
+       case 16:
+       return 'images/sleet_shower_night.png';
+       break;
+       case 17:
+       return 'images/sleet_shower.png';
+       break;
+       case 18:
+       return 'images/sleet.png';
+       break;
+       case 19:
+       return 'images/hail_shower_night.png';
+       break;
+       case 20:
+       return 'images/hail_shower.png';
+       break;
+       case 21:
+       return 'images/hail.png';
+       break;
+       case 22:
+       return 'images/light_snow_shower_night.png';
+       break;
+       case 23:
+       return 'images/light_snow_shower.png';
+       break;
+       case 24:
+       return 'images/light_snow.png';
+       break;
+       case 25:
+       return 'images/heavy_snow_shower_night.png';
+       break;
+       case 26:
+       return 'images/heavy_snow_shower.png';
+       break;
+       case 27:
+       return 'images/heavy_snow.png';
+       break;
+       case 28:
+       return 'images/thunder_shower_night.png';
+       break;
+       case 29:
+       return 'images/thunder_shower.png';
+       break;
+       case 30:
+       return 'images/thunder.png';
+       break;
    }
- }
+}
 
 
 
- function Weathertype($W)
- {
+function Weathertype($W)
+{
   switch($W){
     case 0:
     return 'Clear Night</td>';
@@ -192,7 +192,7 @@
     case 3:
     return '<td class="danger  <span class="glyphicon glyphicon-warning-sign"></span>">Thunder</td>';
     break;
-  }
+}
 }
 
 
@@ -221,7 +221,7 @@ function Visibility($V)
     case "EX":
     return '<td data-toggle="tooltip" data-placement="right" title="40km+">Excellent</td>';
     break;
-  } 
+} 
 }
 
     //Similiar function to to weather, instead for visibilty
@@ -249,43 +249,43 @@ function Visgraph($V)
     case "EX":
     return 'images/sunny_day.png';
     break;
-  }
+}
 }
 
 function Tempgraph($T)
 {
   if($T <= 10){
     return 'images/1.png';
-  }else if($T >=11 && $T <=20){
+}else if($T >=11 && $T <=20){
     return 'images/2.png';
-  }else if($T >=21 && $T <=25){
+}else if($T >=21 && $T <=25){
     return 'images/3.png';
-  }else if($T >=26 && $T <=30){
+}else if($T >=26 && $T <=30){
     return 'images/4.png';
-  }else if($T >= 15){
+}else if($T >= 15){
     return 'images/5.png';
-  }
+}
 }
 
 function Windgraph($D)
 {
   if($D == "N" ){
     return 'images/wind_north.png';
-  }else if($D == "E"){
+}else if($D == "E"){
     return 'images/wind_east.png';
-  }else if($D == "S"){
+}else if($D == "S"){
     return 'images/wind_south.png';
-  }else if($D == "W"){
+}else if($D == "W"){
     return 'images/wind_west.png';
-  }else if($D == "NNE" || $D == "NE" || $D == "ENE"){
+}else if($D == "NNE" || $D == "NE" || $D == "ENE"){
     return 'images/wind_north_east.png';
-  }else if($D == "SSE" || $D == "SE" || $D == "ESE"){
+}else if($D == "SSE" || $D == "SE" || $D == "ESE"){
     return 'images/wind_south_east.png';
-  }else if($D == "NNW" || $D == "NW" || $D == "WNW"){
+}else if($D == "NNW" || $D == "NW" || $D == "WNW"){
     return 'images/wind_north_west.png';
-  }else if($D == "SSW" || $D == "SW" || $D == "WSW"){
+}else if($D == "SSW" || $D == "SW" || $D == "WSW"){
     return 'images/wind_north_west.png';
-  }
+}
 }
 
 
