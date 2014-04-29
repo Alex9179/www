@@ -140,7 +140,7 @@
                       <tr>
                         <td><?php echo $Timeslot->{'$'}/60 . ":00"; ?></td>
                         <?php echo Weathertype ($Timeslot->W); ?>
-                        <td><?php echo $Timeslot->S . "ph"; ?></td>    
+                        <td><?php echo $Timeslot->S . "mph"; ?></td>    
                         <td><?php echo $Timeslot->D; ?></td>
                         <td><?php echo $Timeslot->G . "mph"; ?></td>
                         <?php echo Visibility ($Timeslot->V); ?> 
