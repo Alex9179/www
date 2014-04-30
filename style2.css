@@ -81,15 +81,16 @@
  
  .container{
 margin:0;
-padding: 0;
 
- }
-
- .container-fluid {
-  padding: 0;
- }
-
+ }.panel-body
+ {
+overflow:scroll;
+}
   }
+
+
+
+  
   
 
 .main .page-header {

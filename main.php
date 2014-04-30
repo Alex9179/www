@@ -53,7 +53,7 @@
     $data = file_get_contents("http://datapoint.metoffice.gov.uk/public/data/val/wxfcs/all/json/" . $_GET['location'] . "?res=3hourly&key=b5bcbd2f-c9f1-45b4-a367-6fa8cbd39c3e");
   }
   else {
-    $URL="http://localhost/main.php?name=Headcorn&location=351989";
+    $URL="main.php?name=Headcorn&location=351989";
     echo ("<script>window.location.href='$URL'</script>");
   }  
 
@@ -73,7 +73,7 @@
       <h2>Summary</h2>
       <!--Images and results loaded according to most recent weather results using their corresponding .php-->
       <div class="row placeholders">
-        
+
         <div class="col-xs-3 placeholder">
           <img src=<?php echo Visgraph ($today->V); ?> class="img-responsive" alt="Visibility thumbnail">
           <h4>Visibility</h4>

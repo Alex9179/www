@@ -54,7 +54,9 @@
       <h3>NOTAM's</h3>
       <!--Inlcude the NOTAM map
       //outsourced and held in a different .php folder to minimise clutter -->
-      <?php include "map.php"; ?>
+     <!-- <?php include "map.php"; ?>-->
+      <iframe src="http://notaminfo.com/php/notams.php?u=DFHGC&amp;as=x" 
+      width="100%" height="710" frameborder="0" ></iframe>
 
     </div>     
 
