@@ -1,8 +1,14 @@
 
 <?php include "functions.php"; ?>
 
+<!--Index page - Simple design with an opening paragraph & initial search bar
+//includes the main navigation which can link to any page but without the search in the top right
+//The href when 'Weather Tracker' in the top left is clicked.-->
+
 <!DOCTYPE html>
 <html lang="en">
+
+<!--Pagehead unique to the index.html as it has a different stylesheet, therefore linked in directly instead of .php include as the other pages-->
 <head>
   <title>Weather Tracker</title>
   <meta charset="utf-8">
@@ -17,13 +23,14 @@
   <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>  
   <script src="js.js"></script>
   <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
-  <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
   <link href="style1.css" rel="stylesheet">
 
 
 </head>
 
 <body>
+  <!--Nav bar is similar to all other pages, without the search option. Not done as .php include as 'Class="active" required for CSS-->
 
   <div class="site-wrapper">
     <div class="site-wrapper-inner">
@@ -41,9 +48,6 @@
                 </button>
                 <a class="navbar-brand" href="index.php">Weather Tracker <span class="glyphicon glyphicon-cloud"></span></a>
               </div>
-
-
-
               <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                   <li class="active"><a href="index.php">Home</a></li>
@@ -57,11 +61,13 @@
           </div>        
         </div>
 
+        <!--Front page Image-->
+
         <div class="col-xs-4 placeholder">
           <img src="images/sunny_day.png" class="img-responsive">
         </div>
 
-
+        <!--Front page text, simple welcome message & the initial search bar (wide bar to draw attention)-->
         <div class="inner cover">
           <div id="msg">
             <h1 class="cover-heading">Welcome</h1>

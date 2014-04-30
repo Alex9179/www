@@ -1,5 +1,9 @@
 
 <?php include "functions.php"; ?>
+<!--Route page - Displays the results from two seperate locations and compares them to display different weather in the route.
+//graphics showing current weather of location & tables with detailed weathr information for the next 5 days below
+//Uses php include for pagehead as all but the index.html use the same pagehead-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -108,7 +112,7 @@
       </div>
 
       <!--Results table - four columns with headers, first location results, comparisons 
-      (calculated and populated onces both locations have been selected) and second location results-->
+      //(calculated and populated onces both locations have been selected) and second location results-->
 
 
       <div class="col-xs-12 placeholder">
