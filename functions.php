@@ -1,6 +1,14 @@
- <!--The PHP function which converts the numerical weather type into the correct english-->
  <?php 
+/**
+ * The functions file holds all the functions which convert the results of the datapoint api into meaningful data
+ */
 
+
+ /**
+  * Take the $W value from the Datapoint api and returns the correct image to be displayed
+  * @param int $W 
+  * @return int
+  */
  function Weathergraph($W)
  {
      switch($W){
@@ -98,7 +106,11 @@
 }
 
 
-
+/**
+  * Take the $W value from the Datapoint api turns it into meaningful english, including the <td> tags for the table
+  * @param int $W 
+  * @return int
+  */
 function Weathertype($W)
 {
   switch($W){
@@ -198,8 +210,12 @@ function Weathertype($W)
 }
 }
 
+/**
+  * Take the $V value from the Datapoint api and returns the correct <td> tage, including tooltips and warnings
+  * @param int $V 
+  * @return int
+  */
 
-//Similiar function to to weather, instead for visibilty
 function Visibility($V)
 {
   switch($V){    
@@ -227,7 +243,12 @@ function Visibility($V)
 } 
 }
 
-    //Similiar function to to weather, instead for visibilty
+    /**
+  * Take the $V value from the Datapoint api and returns the correct image to be displayed
+  * @param int $V 
+  * @return int
+  */
+
 function Visgraph($V)
 {
   switch($V){ 
@@ -255,6 +276,13 @@ function Visgraph($V)
 }
 }
 
+/**
+  * Take the $T value from the Datapoint api and returns the correct image to be displayed
+  * @param int $T 
+  * @return int
+  */
+
+
 function Tempgraph($T)
 {
   if($T <= 10){
@@ -269,6 +297,13 @@ function Tempgraph($T)
     return 'images/5.png';
 }
 }
+
+/**
+  * Take the $D value from the Datapoint api and returns the correct image to be displayed
+  * @param int $D 
+  * @return int
+  */
+
 
 function Windgraph($D)
 {

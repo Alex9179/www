@@ -106,7 +106,7 @@ $(document).ready(function() {
 //by the php to fetch the required data on the location.
 
 $( "#location" ).autocomplete({
-  minLength: 0,
+  minLength: 1,
   source: locations,
   focus: function( event, ui ) {
     $( "#location" ).val( ui.item.label );
