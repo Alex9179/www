@@ -46,7 +46,7 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php">Weather Tracker <span class="glyphicon glyphicon-cloud"></span></a>
+                <a class="navbar-brand" href="index.php">Weather Wings<span class="glyphicon glyphicon-cloud"></span></a>
               </div>
               <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -71,7 +71,7 @@
         <div class="inner cover">
           <div id="msg">
             <h1 class="cover-heading">Welcome</h1>
-            <p> Official aviation weather reports (TAFS' and METARs) are limited, meaning many airfields are left without any local weather reports.Weather Tracker aims to provide local weather information for all airfields/aerodromes in Kent, UK. </p>
+            <p> Official aviation weather reports (TAFS' and METARs) are limited, meaning many airfields are left without any local weather reports.Weather Wings aims to provide local weather information for all airfields/aerodromes in Kent, UK. </p>
             <p>Begin your search by searching in the bar below</p>
           </div>
           <form >
