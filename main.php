@@ -61,6 +61,8 @@
   $decoded = json_decode($data);
   $today = $decoded->SiteRep->DV->Location->Period[0]->Rep[0];
   $place = $decoded->SiteRep->DV->Location->name;
+  $latitude = $decoded->SiteRep->DV->Location->lat;
+  $longitude = $decoded->SiteRep->DV->Location->lon;
   ?>
 
   <!--Head of the page displaying graphical representation, graphics loaded depending on the json results.
@@ -68,7 +70,8 @@
   <div class="row">        
     <div class="container">
       <h1 class="page-header">Your Search Results <small><?php echo $_GET['name']; ?></small></h1> 
-      <p> Closest Report: <?php echo $place ?></p>
+      <p> Closest Report: <?php echo $place ?> </p>
+      <p>Latitude: <?php echo $latitude ?> Longitude: <?php echo $longitude?></p>
       <p style="color:red;">ALL WEATHER ESTIMATIONS ( ON AVERAGE < 3 MILE ACCURACY ) <span class="glyphicon glyphicon-warning-sign"></p>
       <h2>Summary</h2>
       <!--Images and results loaded according to most recent weather results using their corresponding .php-->
