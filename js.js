@@ -1,4 +1,3 @@
- 
 
 
 
@@ -136,6 +135,7 @@ $("#location1").change(function(){
 
       var data = result.SiteRep.DV.Location.Period[0].Rep[0];
       var wtype1 = null;
+      var vtype1 = null;
 
 //Depending on the W result, print the weather type
 if(data['W'] ==0){
@@ -200,6 +200,23 @@ if(data['W'] ==0){
   wtype1 = 'Thunder';
 }
 
+
+  if(data['V'] == 'UN'){     
+   vtype1 = 'Unknown';
+ }else if(data['V'] == 'VP'){    
+   vtype1 = 'Very Poor';
+ }else if(data['V'] == 'PO'){     
+   vtype1 = 'Poor';
+ }else if(data['V'] == 'MO'){     
+   vtype1 = 'Moderate';
+ }else if(data['V'] == 'GO'){     
+   vtype1 = 'Good';
+ }else if(data['V'] == 'VG'){     
+   vtype1 = 'Very Good';
+ }else if(data['V'] == 'EX'){     
+   vtype1 = 'Excellent';    
+ } 
+
 //Print each result in it's correct <td> & check to see if a comparison is needed.
 
 $('#11').html(data['D']);
@@ -209,7 +226,7 @@ $('#14').html(data['H'] + "%");
 $('#15').html(data['Pp'] + "%");
 $('#16').html(data['S'] + "mph");
 $('#17').html(data['T'] + "c");
-$('#18').html(data['V']);
+$('#18').html(vtype1);
 $('#19').html(wtype1);
 $('#20').html(data['U']);
 $('#21').html(data['$']/60 + ":00");
@@ -232,6 +249,8 @@ $("#location2").change(function(){
 
       var data = result.SiteRep.DV.Location.Period[0].Rep[0];
       var wtype = null;
+      var vtype2 = null;
+
 
 //Depending on the W result, print the weather type
 if(data['W'] ==0){
@@ -296,6 +315,21 @@ if(data['W'] ==0){
   wtype = 'Thunder';
 }
 
+if(data['V'] == 'UN'){     
+   vtype2 = 'Unknown';
+ }else if(data['V'] == 'VP'){    
+   vtype2 = 'Very Poor';
+ }else if(data['V'] == 'PO'){     
+   vtype2 = 'Poor';
+ }else if(data['V'] == 'MO'){     
+   vtype2 = 'Moderate';
+ }else if(data['V'] == 'GO'){     
+   vtype2 = 'Good';
+ }else if(data['V'] == 'VG'){     
+   vtype2 = 'Very Good';
+ }else if(data['V'] == 'EX'){     
+   vtype2 = 'Excellent';    
+ } 
 
 //Print each result in it's correct <td> & check to see if a comparison is needed.
 $('#101').html(data['D']);
@@ -305,7 +339,7 @@ $('#104').html(data['H'] + "%");
 $('#105').html(data['Pp']+ "%");
 $('#106').html(data['S'] + "mph");
 $('#107').html(data['T'] + "c");
-$('#108').html(data['V']);
+$('#108').html(vtype2);
 $('#109').html(wtype);
 $('#110').html(data['U']);
 $('#111').html(data['$']/60 + ":00");
