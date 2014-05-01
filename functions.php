@@ -322,7 +322,7 @@ function Windgraph($D)
 }else if($D == "NNW" || $D == "NW" || $D == "WNW"){
     return 'images/wind_north_west.png';
 }else if($D == "SSW" || $D == "SW" || $D == "WSW"){
-    return 'images/wind_north_west.png';
+    return 'images/wind_south_west.png';
 }
 }
 
