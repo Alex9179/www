@@ -69,7 +69,7 @@
     <div class="container">
       <h1 class="page-header">Your Search Results <small><?php echo $_GET['name']; ?></small></h1> 
       <p> Closest Report: <?php echo $place ?></p>
-      <p style="color:red;">ALL WEATHER ESTIMATIONS ( < 3KM ACCURACY ) <span class="glyphicon glyphicon-warning-sign"></p>
+      <p style="color:red;">ALL WEATHER ESTIMATIONS ( ON AVERAGE < 3 MILE ACCURACY ) <span class="glyphicon glyphicon-warning-sign"></p>
       <h2>Summary</h2>
       <!--Images and results loaded according to most recent weather results using their corresponding .php-->
       <div class="row placeholders">
