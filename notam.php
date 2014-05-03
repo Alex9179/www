@@ -22,7 +22,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.php">Weather Tracker <span class="glyphicon glyphicon-cloud"></span></a>
+      <a class="navbar-brand" href="index.php">Weather Wings <span class="glyphicon glyphicon-cloud"></span></a>
     </div>
 
     <div class="navbar-collapse collapse">
@@ -54,7 +54,7 @@
       <h3>NOTAM's</h3>
       <!--Inlcude the NOTAM map
       //outsourced and held in a different .php folder to minimise clutter -->
-     <!-- <?php include "map.php"; ?>-->
+      <!-- <?php include "map.php"; ?>-->
       <iframe src="http://notaminfo.com/php/notams.php?u=DFHGC&amp;as=x" 
       width="100%" height="710" frameborder="0" ></iframe>
 

@@ -3,14 +3,14 @@
 
 <!--Index page - Simple design with an opening paragraph & initial search bar
 //includes the main navigation which can link to any page but without the search in the top right
-//The href when 'Weather Tracker' in the top left is clicked.-->
+//The href when 'Weather Wings' in the top left is clicked.-->
 
 <!DOCTYPE html>
 <html lang="en">
 
 <!--Pagehead unique to the index.html as it has a different stylesheet, therefore linked in directly instead of .php include as the other pages-->
 <head>
-  <title>Weather Tracker</title>
+<title>Weather Wings</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="Weather Report Application" >

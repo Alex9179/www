@@ -24,7 +24,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="index.php">Weather Tracker <span class="glyphicon glyphicon-cloud"></span></a>
+        <a class="navbar-brand" href="index.php">Weather Wings <span class="glyphicon glyphicon-cloud"></span></a>
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
