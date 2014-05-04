@@ -99,6 +99,13 @@ $(document).ready(function() {
     label: "Woodchurch",  
     no: 354083,
   }
+
+  //{
+    //value: "Potential New Location",   
+    //label: "",  
+    //no: ######,
+  //}
+
   ];
 
 //Search script - autocompletes the search bar using the array, and appends both the name & location id back to the url to be used 
