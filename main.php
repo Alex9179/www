@@ -100,7 +100,7 @@
 
         <div class="col-xs-3 placeholder">
           <img src=<?php echo Tempgraph ($today->T); ?> class="img-responsive" alt="Temperature thumbnail">
-          <h4>Temp.</h4>
+          <h4>Temp</h4>
           <span class="text-muted"><?php echo $today->T . "c"; ?></span>
         </div> 
       </div>
