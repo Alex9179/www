@@ -47,7 +47,7 @@
 
     <div class="container">
       <h1 class="page-header">Route Planner</h1> 
-      <p>Check the weather at both the start and end of your journey by entering each location bellow.</p>
+      <p>Check the weather at both the start and end of your journey by entering each location below.</p>
       <p style="color:red;">All weather estimations for each location. <span class="glyphicon glyphicon-warning-sign"></p>
 
       <div class="row placeholders">

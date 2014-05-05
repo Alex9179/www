@@ -52,9 +52,7 @@
 
     <div class="col-xs-12">
       <h3>NOTAM's</h3>
-      <!--Inlcude the NOTAM map
-      //outsourced and held in a different .php folder to minimise clutter -->
-      <!-- <?php include "map.php"; ?>-->
+     <p> &copy; All information provided by Notam Info.com courtesy of David Massie (http://notaminfo.com/) </p>
       <iframe src="http://notaminfo.com/php/notams.php?u=muse91&amp;" 
       width="100%" height="710" frameborder="0" >
        <p>Your browser does not support iframes.</p>

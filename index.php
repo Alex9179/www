@@ -71,7 +71,7 @@
         <div class="inner cover">
           <div id="msg">
             <h1 class="cover-heading">Welcome</h1>
-            <p> Official aviation weather reports (TAFS' and METARs) are limited, meaning many airfields are left without any local weather reports.Weather Wings aims to provide local weather information for all airfields/aerodromes in Kent, UK. </p>
+            <p> Official aviation weather information (TAFS' and METARs) are limited, meaning many airfields are left without any local weather reports.Weather Wings aims to provide local weather information for all airfields/aerodromes in Kent, UK. </p>
             <p>Begin your search by searching in the bar below</p>
           </div>
           <form >
