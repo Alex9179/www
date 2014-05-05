@@ -56,15 +56,17 @@
       //outsourced and held in a different .php folder to minimise clutter -->
       <!-- <?php include "map.php"; ?>-->
       <iframe src="http://notaminfo.com/php/notams.php?u=muse91&amp;" 
-      width="100%" height="710" frameborder="0" ></iframe>
+      width="100%" height="710" frameborder="0" >
+       <p>Your browser does not support iframes.</p>
+    </iframe>
 
-    </div>     
+  </div>     
 
-  </div>
+</div>
 
-  <footer>
-    <p> &copy; 2014Created by Alexander McLean  All data provided by the Met Office (http://www.metoffice.gov.uk/) </p>
-  </footer>
+<footer>
+  <p> &copy; 2014Created by Alexander McLean  All data provided by the Met Office (http://www.metoffice.gov.uk/) </p>
+</footer>
 </div>
 </body>
 </html>
