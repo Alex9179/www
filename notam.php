@@ -55,7 +55,7 @@
       <!--Inlcude the NOTAM map
       //outsourced and held in a different .php folder to minimise clutter -->
       <!-- <?php include "map.php"; ?>-->
-      <iframe src="http://notaminfo.com/php/notams.php?u=DFHGC&amp;as=x" 
+      <iframe src="http://notaminfo.com/php/notams.php?u=muse91&amp;" 
       width="100%" height="710" frameborder="0" ></iframe>
 
     </div>     
